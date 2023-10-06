@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 4000px;
+}
+/* Header CSS */
+.header{
+    position: sticky;
+    height: 70px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+.logoimage{
+    width: 268px;
+    height: 33px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px;
+    list-style: none;
+  
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+} 
+a{
+    text-decoration: none;
+    color: #ababab;
+} 
+a:hover{
+    color: #00b39b;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* Hero CSS */
+.hero {
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+    align-items: center;
+    text-align: center;
+}
+.heroh{
+    font-family: Work Sans,Arial,sans-serif;
+    color: #00b39b;
+    font-size: 34px;
+    font-weight: 300;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    width: 500;
+    font-weight: bold;
+    color: #747474;
+    font-family: Work Sans,Arial,sans-serif;
+    line-height: 1.75;
+    text-align: left;
+
+}
+/* Boxes Css */
+.boxes{
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.boxes div {
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.boxe1{
+    background-color: #00ccb1;
+}
+.boxe2{
+    background-color: #3d83df;
+}
+.boxe3{
+    background-color: #1b2734;
+}
+.h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.h2{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    font-family: Work Sans,Arial,sans-serif; 
+}
+.selection{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+}
+.brands{
+    width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.h3{
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+.brandslogo{
+    color: #ababab;
+    display: flex;
+    align-content: center;
+    word-spacing: 4px;
+    font-size: 15px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 5px 0 5px 5px;
+    margin-top: 0 auto;
+}
+.brandslogohover{
+    color: #00b39b;
+}
+
